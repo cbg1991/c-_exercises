@@ -10,8 +10,6 @@ int main()
     string colorOne;
     string colorTwo;
     string outputColor;
-    char charOne;
-    char charTwo;
     int firstDigit = 0;
     int secondDigit = 0;
     int outputDigit = 0;
