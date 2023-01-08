@@ -65,7 +65,7 @@ int main()
     //add input digits together to create unqiue output color integer
     outputDigit = firstDigit + secondDigit;
 
-    //switch statement to assign secondary color to putput integer and print
+    //switch statement to assign secondary color to output integer and print
     switch (outputDigit) {
         case 21: 
             outputColor = "Red";
