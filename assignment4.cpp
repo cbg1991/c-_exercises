@@ -3,11 +3,11 @@
 #include <iostream>
 using namespace std;
 
-int recArea(int a, int b);
-int squareArea(int a);
-int triArea(int a, int b);
-int cirArea(int a);
-int negCheck(int a);
+double recArea(double a, double b);
+double squareArea(double a);
+double triArea(double a, double b);
+double cirArea(double a);
+double negCheck(double a);
 
 int main()
 {
@@ -92,36 +92,36 @@ int main()
     return 0;
 }
 
-int recArea(int sideOne, int sideTwo)
+double recArea(double sideOne, double sideTwo)
 {
-    int area;
+    double area;
     area = sideOne * sideTwo;
     return area;
 }
 
-int squareArea(int side)
+double squareArea(double side)
 {
-    int area;
+    double area;
     area = side * side;
     return area;
 }
 
-int triArea(int base, int height)
+double triArea(double base, double height)
 {
-    int area;
+    double area;
     area = (base * height) / 2;
     return area;
 }
 
-int cirArea(int radius)
+double cirArea(double radius)
 {
-    int area;
+    double area;
     double const PI = 3.14;
     area = PI * radius * radius;
     return area;
 };
 
-int negCheck(int value)
+double negCheck(double value)
 {
     if (value <= 0)
     {
